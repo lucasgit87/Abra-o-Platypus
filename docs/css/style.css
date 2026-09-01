@@ -17,8 +17,10 @@ html {
 body {
   margin: 0;
   background-color: var(--cinza);
-  background-image: url("../imagens/seamless-duck.png");
-  background-size: 800px auto;
+  background-image:
+    linear-gradient(rgba(242, 242, 242, 0.9), rgba(242, 242, 242, 0.9)),
+    url("../imagens/seamless-duck.png");
+  background-size: auto, 1200px auto;
   background-attachment: fixed;
   color: var(--texto);
   font-family: "DM Sans", Arial, sans-serif;
