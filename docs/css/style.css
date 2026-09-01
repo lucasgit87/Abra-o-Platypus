@@ -16,7 +16,10 @@ html {
 }
 body {
   margin: 0;
-  background: var(--cinza);
+  background-color: var(--cinza);
+  background-image: url("../imagens/seamless-duck.png");
+  background-size: 800px auto;
+  background-attachment: fixed;
   color: var(--texto);
   font-family: "DM Sans", Arial, sans-serif;
   line-height: 1.65;
